@@ -4,7 +4,7 @@
     margin: 0;
 }
 :root{
-    --bluecolor:hsl(203, 95%, 50%) ;
+    --bluecolor:hsl(203, 81%, 35%) ;
     --white:#d9dcd6;
     --navy:rgba(8,87,146,255);
 
@@ -23,11 +23,12 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 300%;
     background-color:var(--bluecolor) ;
     color:#172a36;
     display: inline-flex;
     justify-self: flex-start;
+    font-size: 200%;
 }
 
 
@@ -94,7 +95,7 @@ header a:hover{
 .row h1{
     text-align: right;
     padding:10px;
-    font-size: 200%;
+    font-size: 250%;
     flex:0 0 20%;
     /* align-self:stretch; */
     font-weight:bold;
@@ -123,25 +124,20 @@ article p{
     margin-bottom: 3%;
     
 }
-.work-container #surfreport{
+.work-container #recipe{
     flex:0 0 100%;
     /* margin-bottom: 3%; */
-    
 }
 
-#surfreport figure img{
+#recipe figure img{
     width: 100%;
     height: 500px;
     /* margin-bottom: 3%; */
 }
 
-
-
 #about-me p{
     padding :10px;
-    font-size:120%;
-    
-    
+    font-size:120%;  
 }
 
 figure{
@@ -196,9 +192,14 @@ img:hover{
     text-decoration-color:var(--navy);
     text-underline-offset: 7px;
 }
+#contactme article{
+    width:100%;
+
+}
 #contactme a:hover{
     background-color: var(--navy);
     color:var(--white);
 }
+media
 
 
