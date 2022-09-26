@@ -13,6 +13,7 @@
 body {
     background-color:#d9dcd6;
     font-family: "Gill Sans", sans-serif;
+    font-size: 18px;
 }
 
 header {
@@ -184,22 +185,44 @@ img:hover{
 #contactme li{
     font-size: 150%;
     list-style: none;
-    margin:20px;
-    flex:0 1 10%; 
+    margin:10px;
+    width:fit-content;
 }
+
 #contactme a{
     color:var(--bluecolor);
     text-decoration-color:var(--navy);
     text-underline-offset: 7px;
 }
 #contactme article{
-    width:100%;
+    flex:0 0 80%;
 
 }
 #contactme a:hover{
     background-color: var(--navy);
     color:var(--white);
 }
-media
+@media screen and (max-width: 992px) {
+    #contactme li{
+        font-size: 100%;
+    }
+    .row h1{
+        font-size: 200%;
+    }
+
+    
+   
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    #contactme li{
+        font-size: 80%;
+    }
+    .row h1{
+        font-size: 150%;
+    }
+  }
+  
 
 
